@@ -19,6 +19,6 @@ def simulate(clf, X_train, X_test, y_train, y_test, roc = False):
     stats = [acc_train, acc_test, f1_train, f1_test, test_auc]
 
     if roc:
-    	return stats, [fpr, tpr]
+        return stats, [fpr, tpr]
     else:
-    	return stats
+        return stats
